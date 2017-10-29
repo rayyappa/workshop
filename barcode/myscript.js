@@ -71,11 +71,11 @@ function detailsOfItem(index) {
     
     var details = "id: " + list[index].id
     details += "<br>"
-    details += list[index].item
+    details += list[index].name
     details += "<br>"
-    details += list[index].description
+    details += list[index].id
     details += "<br>"
-    details += "Rs. " + list[index].price
+    details += "Rs. " + list[index].branch
     
     return details
 }
